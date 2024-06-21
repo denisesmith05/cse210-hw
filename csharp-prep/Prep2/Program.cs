@@ -51,6 +51,8 @@ class Program
     }
 }
 
+// Teacher's Code:
+
 // using System;
 
 // class Program
