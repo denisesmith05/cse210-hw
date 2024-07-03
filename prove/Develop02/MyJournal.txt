@@ -1,2 +1,3 @@
-2024-07-02 16:09:07, What was the strongest emotion I felt today?, stress
-2024-07-02 16:09:38, What was the strongest emotion I felt today?, happiness
+2024-07-02 21:19:53, Who was the most interesting person I interacted with today?, Stephanie
+2024-07-02 21:32:40, If I had one thing I could do over today, what would it be?, be faster
+2024-07-02 21:32:52, What was the strongest emotion I felt today?, stress

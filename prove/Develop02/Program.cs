@@ -24,18 +24,18 @@ class Program
             journalOption = int.Parse(Console.ReadLine());
 
             if (journalOption == 1){
-                string selectedPrompt = promptGenerator.GetRandomPrompt();
-                Console.WriteLine(selectedPrompt);
+                string randomPrompt = promptGenerator.GetRandomPrompt();
+                Console.WriteLine(randomPrompt);
                 string userResponse = Console.ReadLine();
 
                 // Create a new entry and add it to the journal
                 Entry newEntry = new Entry {
                     _date = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
-                    _promptText = selectedPrompt,
+                    _promptText = randomPrompt,
                     _entryText = userResponse
                 };
                 myJournal.AddEntry(newEntry);
-                Console.WriteLine($"Congrats! You've written in your journal {myJournal.EntryCount} times.");
+                Console.WriteLine($"Congrats! You've written in your journal {myJournal.EntryCount} time(s).");
 
             }
             else if (journalOption == 2) {
