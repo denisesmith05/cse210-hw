@@ -1,0 +1,25 @@
++-----------------------+
+|       Comment         |
++-----------------------+
+| - Name: string        |
+| - Text: string        |
++-----------------------+
+| + ToString(): string  |
++-----------------------+
+
+             ^
+             |
+             |
+             
++-----------------------+
+|        Video          |
++-----------------------+
+| - Title: string       |
+| - Author: string      |
+| - Length: int         |
+| - Comments: List<Comment> |
++-----------------------+
+| + AddComment(Comment): void |
+| + GetNumberOfComments(): int |
+| + Display(): void          |
++-----------------------+

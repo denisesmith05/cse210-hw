@@ -1,0 +1,34 @@
++-----------------------+
+|        Event          |
++-----------------------+
+| - Title: string       |
+| - Description: string |
+| - Date: string        |
+| - Time: string        |
+| - Address: Address    |
++-----------------------+
+| + StandardDetails(): string |
+| + FullDetails(): string |
+| + ShortDescription(): string |
++-----------------------+
+
+             ^
+             |
+             |
++-----------------------+         +-----------------------+
+|       Lecture         |         |       Reception        |
++-----------------------+         +-----------------------+
+| - Speaker: string     |         | - RSVPEmail: string   |
+| - Capacity: int       |         +-----------------------+
++-----------------------+         | + FullDetails(): string |
+| + FullDetails(): string |      +-----------------------+
++-----------------------+
+                     |
+                     |
++-----------------------+
+|   OutdoorGathering    |
++-----------------------+
+| - Weather: string     |
++-----------------------+
+| + FullDetails(): string |
++-----------------------+

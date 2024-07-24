@@ -1,0 +1,36 @@
++-----------------------+
+|      Activity         |
++-----------------------+
+| - Date: string        |
+| - Length: int         |
++-----------------------+
+| + GetDistance(): double |
+| + GetSpeed(): double   |
+| + GetPace(): double    |
+| + GetSummary(): string |
++-----------------------+
+
+             ^
+             |
+             |
++-----------------------+         +-----------------------+
+|       Running         |         |       Cycling         |
++-----------------------+         +-----------------------+
+| - Distance: double    |         | - Speed: double       |
++-----------------------+         +-----------------------+
+| + GetDistance(): double |      | + GetDistance(): double |
+| + GetSpeed(): double   |      | + GetSpeed(): double   |
+| + GetPace(): double    |      | + GetPace(): double    |
++-----------------------+         +-----------------------+
+
+                           |
+                           |
++-----------------------+
+|       Swimming        |
++-----------------------+
+| - Laps: int           |
++-----------------------+
+| + GetDistance(): double |
+| + GetSpeed(): double   |
+| + GetPace(): double    |
++-----------------------+
